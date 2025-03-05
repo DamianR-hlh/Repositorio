@@ -1,6 +1,7 @@
 
 import sqlite3
 #Creamos la tabla en la base de datos
+#Cambiamos algo
 try:
     conexion = sqlite3.connect("BaseDatosUsuarios.db")
     cursor = conexion.cursor()
