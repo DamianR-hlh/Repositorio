@@ -29,7 +29,7 @@ def insertar_usuarios(nombre, edad): #Insertar nuevos usuarios
         cursor.execute("INSERT INTO Usuarios(nombre, edad) VALUES (?, ?)", (nombre, edad))
         conexion.commit()
         conexion.close()
-        print("Usuario creado con éxito.")
+        print("Usuario creado con éxito!!!.")
     except sqlite3.Error as e:
         print(f"Error al insertar datos en BBDD: {e}")
 
